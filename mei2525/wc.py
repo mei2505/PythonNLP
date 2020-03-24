@@ -1,0 +1,5 @@
+f=open('kusamakura.txt')
+print(len(f.read()))
+num_lines=sum(1 for lines in open('kusamakura.txt'))
+print(num_lines)
+f.close()
